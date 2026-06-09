@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_annibale.mk
+    $(LOCAL_DIR)/custom_annibale.mk
