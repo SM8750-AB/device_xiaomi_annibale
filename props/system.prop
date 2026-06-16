@@ -24,3 +24,7 @@ telephony.lteOnCdmaDevice=1
 
 # WFD
 persist.debug.wfd.enable=1
+
+# Infinity Specs
+ro.infinity.soc=Snapdragon 8 Elite
+ro.infinity.camera=50MP Triple Camera
