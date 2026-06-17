@@ -7,11 +7,9 @@ cc_library_static {
     srcs: [
         "power-mode.cpp",
     ],
-    whole_static_libs: [
-        "vendor.xiaomi.hw.touchfeature-V1-ndk",
-    ],
     shared_libs: [
         "libbase",
         "libbinder_ndk",
+        "vendor.xiaomi.hw.touchfeature-V1-ndk",
     ],
 }
