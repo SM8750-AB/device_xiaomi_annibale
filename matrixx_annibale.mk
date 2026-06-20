@@ -11,13 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/annibale/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
 
 # Lineage stuff
 TARGET_EXCLUDES_AUDIOFX := true
 
-PRODUCT_NAME := infinity_annibale
-INFINITY_MAINTAINER := aerichandesu@noticesa
+PRODUCT_NAME := matrixx_annibale
+MATRIXX_MAINTAINER := aerichandesu@noticesa
+MATRIXX_PROCESSOR := Snapdragon 8 Elite
 PRODUCT_DEVICE := annibale
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 2510DPC44G

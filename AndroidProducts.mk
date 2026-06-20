@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_annibale.mk
+    $(LOCAL_DIR)/matrixx_annibale.mk
