@@ -30,8 +30,3 @@ install_symlink {
     symlink_target: "/vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini",
 }
 
-mkdir {
-    name: "vendor_modem_firmware_mountpoint",
-    dir: "modem_firmware",
-    vendor: true,
-}
