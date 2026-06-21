@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "NfcOverlay",
+    name: "NfcOverlayAnnibale",
     vendor: true,
 }
