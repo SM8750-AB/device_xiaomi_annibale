@@ -253,5 +253,9 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Project Infinity X Build Flags
+TARGET_HAS_UDFPS := true
+INFINITY_MAINTAINER := aerichandesu@noticesa
+
 # Inherit the proprietary files
 include vendor/xiaomi/annibale/BoardConfigVendor.mk

@@ -24,3 +24,8 @@ telephony.lteOnCdmaDevice=1
 
 # WFD
 persist.debug.wfd.enable=1
+
+# Project Infinity
+ro.product.marketname=POCO F8 Pro
+ro.infinity.soc=Snapdragon 8 Elite
+ro.infinity.camera=50MP Triple Camera

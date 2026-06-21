@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from generic device
 $(call inherit-product, device/xiaomi/annibale/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# Lineage stuff
+# Lineage/AOSP stuff
 TARGET_EXCLUDES_AUDIOFX := true
 
-PRODUCT_NAME := lineage_annibale
+PRODUCT_NAME := infinity_annibale
 PRODUCT_DEVICE := annibale
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 2510DPC44G
