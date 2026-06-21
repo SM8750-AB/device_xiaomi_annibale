@@ -20,6 +20,7 @@ allow hal_fingerprint_default system_app:binder { call transfer };
 allow hal_fingerprint_default system_app:binder transfer;
 allow hal_fingerprint_default system_app:fd *;
 allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default sysfs_tp_fodstatus:file rw_file_perms;
 allow hal_fingerprint_default vendor_sysfs_spss:dir search;
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default uhid_device:chr_file rw_file_perms;
